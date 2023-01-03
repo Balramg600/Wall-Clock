@@ -1,0 +1,85 @@
+body{
+    background-color:rgb(13, 11, 39)
+}
+#clockContainer {
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:7vw;
+    height: 30vw;
+    border-radius: 50%;
+    /*to make the height and width responsive*/
+    width: 30vw;
+    background: url(images/clock.png) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+    border: 5px;
+    background-color: rgb(13, 11, 39);
+    /* border-color: rgb(13, 11, 39); */
+    /* box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);*/
+
+box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
+inset 4px 4px 10px rgba(0,0,0,0.5),
+inset -4px -4px 10px rgba(67,67,67,0.5),
+4px 4px 10px rgba(0,0,0,0.3);
+}
+#hour,
+#minute,
+#second,
+#circle {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+  
+#hour {
+    width: 1.8%;
+    height: 25%;
+    background-color: azure;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+  
+#minute {
+    width: 1.6%;
+    height: 30%;
+    background-color: azure;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+  
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    background-color: red;
+    left: 49.25%;
+    opacity: 0.8;
+}
+#circle{
+    width: 5%;
+    height: 5%;
+    top:47%;
+    background-color: white;
+    left: 46%;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+/* #circle {
+    position: fixed;
+    
+    margin-left: 218px;
+    margin-top: 218px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+  } */
